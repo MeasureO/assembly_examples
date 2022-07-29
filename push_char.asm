@@ -1,18 +1,8 @@
 global _start
 
 _start:
-;section .bss
-;    array resd 1000 ; array 1000 2words
+
 section .text
-;global main
-;extern printf
-;main:
-;    mov ecx, 1000   ; quantity of ops
-;    mov esi, array  ; adress of first element
-;    mov eax, 0      ; start value of sum
-;lp: add eax, [esi]  ; add number to sum
-;    add esi, 4      ; adress of next element
-;    loop lp         ; dec counter
 
 global main
 main:
